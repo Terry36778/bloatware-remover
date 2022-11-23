@@ -1,5 +1,3 @@
-﻿#Script: MME-VDI-Preparation 
-#Author: Unimission AG - Daniel Schra
 
 # Remove AppxPackages
 $appxpackages = Get-AppxPackage -AllUsers | Where-Object -Property NonRemovable -ne True 
